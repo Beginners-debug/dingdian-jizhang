@@ -1,4 +1,4 @@
-# 丁点记账
+﻿# 丁点记账
 
 > 离线优先的个人记账 App：Android APK（WebView 壳）+ 同一套网页（PWA）+ 可选自建 Node 后端。
 > 目标是「丁点大的事也记一笔」——打开就记，不联网也能用，数据在自己手里。
@@ -37,9 +37,13 @@
 
 ## 三种用法
 
+```bash
+git clone https://github.com/Beginners-debug/dingdian-jizhang.git
+```
+
 ### 1. 装 APK（推荐，手机上）
 
-从 [Releases](https://github.com/) 下载 `dingdian-1.3.2.apk`，或自己构建：
+从 [Releases](https://github.com/Beginners-debug/dingdian-jizhang/releases/latest) 下载 `dingdian-1.3.2.apk`，或自己构建：
 
 ```powershell
 # 首次需要工具链（JDK 17 + Android SDK build-tools，脚本会自己下载到 android/.toolchain，约 1 GB）
