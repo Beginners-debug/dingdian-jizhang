@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#3eb489" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1512" media="(prefers-color-scheme: dark)">
+<meta name="description" content="丁点记账 — 离线优先的轻量记账 App，四则运算键盘、按月报表、本地 IndexedDB，无需联网。">
+<meta name="format-detection" content="telephone=no">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="丁点记账">
+<title>丁点记账</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app" id="app">
+  <main class="view" id="view">
+    <div class="splash">
+      <div class="splash-logo">🌿</div>
+      <div>丁点记账 正在启动…</div>
+    </div>
+  </main>
+  <nav class="tabbar" id="tabbar" aria-label="主导航"></nav>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="sheet-root" id="sheet-root"></div>
+<div class="onboard" id="onboard"></div>
+<noscript>
+  <p style="padding:24px;text-align:center">丁点记账需要启用 JavaScript 才能记账。</p>
+</noscript>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

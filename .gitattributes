@@ -1,0 +1,13 @@
+# 统一换行与二进制判定
+* text=auto eol=lf
+
+# Windows 脚本：保持原样（build.ps1 需要 UTF-8 BOM，不能被当成文本改写）
+*.ps1 -text
+*.bat -text
+
+# 二进制资源
+*.png binary
+*.jpg binary
+*.jks binary
+*.apk binary
+*.db binary

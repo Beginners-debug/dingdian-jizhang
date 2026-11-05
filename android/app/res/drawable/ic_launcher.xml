@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Single vector launcher icon: mint circle + white yen sign. No PNG density buckets. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#2E7D6F"
+        android:pathData="M8,54 A46,46 0 1,1 100,54 A46,46 0 1,1 8,54 Z" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M36,28 L54,52 M72,28 L54,52 M54,52 L54,82 M40,61 L68,61 M40,71 L68,71" />
+</vector>

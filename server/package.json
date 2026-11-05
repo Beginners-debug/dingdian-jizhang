@@ -1,0 +1,14 @@
+{
+  "name": "mintlite-server",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "MintLite / 薄荷轻记 零依赖 Node 后端（node:http + node:sqlite）",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/smoke.mjs"
+  }
+}

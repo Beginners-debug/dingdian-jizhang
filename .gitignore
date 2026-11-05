@@ -1,0 +1,31 @@
+# 依赖与构建产物
+node_modules/
+.venv/
+.build/
+
+# 临时目录（截图、探针、日志）
+.tmp/
+
+# Android 工具链与构建中间产物（build.ps1 会重新下载）
+android/.toolchain/
+android/build/
+android/build-assets/
+android/dist/
+
+# 签名私钥：绝对不要提交
+android/keystore/*.jks
+android/keystore/*.keystore
+
+# 本地数据与密钥：绝对不要提交
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
+server/data/secret.key
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

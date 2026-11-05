@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- No ActionBar: the PWA draws its own header. -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#FF2E7D6F</item>
+        <item name="android:navigationBarColor">#FF2E7D6F</item>
+        <item name="android:windowBackground">#FFFFFFFF</item>
+        <item name="android:colorAccent">#FF2E7D6F</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
